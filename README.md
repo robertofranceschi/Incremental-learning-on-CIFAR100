@@ -8,7 +8,7 @@ Recent studies in machine learning aim at developing models that are able to inc
 
 ---
 
-[![Open In Colab](https://drive.google.com/drive/folders/1PhFk0I-ATx7TJkocvtKq2v2WNHYrkXWM?usp=sharing)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/drive/folders/1PhFk0I-ATx7TJkocvtKq2v2WNHYrkXWM?usp=sharing)
 
 #### Useful resources:
 
