@@ -8,6 +8,8 @@ Recent studies in machine learning aim at developing models that are able to inc
 
 ---
 
+[![Open In Colab](https://drive.google.com/drive/folders/1PhFk0I-ATx7TJkocvtKq2v2WNHYrkXWM?usp=sharing)
+
 #### Useful resources:
 
 - [Report](https://github.com/gabrieletiboni/Incremental-learning-on-CIFAR100/blob/master/Final%20Report.pdf)
