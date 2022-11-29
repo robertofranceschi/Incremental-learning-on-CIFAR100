@@ -1,5 +1,7 @@
 # Class-Incremental Learning in Image Recognition
 
+##### Roberto Franceschi, Gabriele Tiboni, Alessandro Desole
+
 #### Abstract
 
 <p align="justify">
