@@ -2,15 +2,26 @@
 
 ##### Roberto Franceschi, Gabriele Tiboni, Alessandro Desole
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/drive/folders/1PhFk0I-ATx7TJkocvtKq2v2WNHYrkXWM?usp=sharing)
+
 #### Abstract
 
 <p align="justify">
 Recent studies in machine learning aim at developing models that are able to incrementally learn new concepts over time with minimal effort in terms of resource usage. In this work, we recall and reproduce from scratch two of the most popular approaches to this problem (”Learning without forgetting” and ”iCaRL”) and we conduct an in-depth ablation study on the previous methods. We finally propose a variation that exploits an implicit hysteresis effect of the network when storing a dynamic number of samples from old classes throughout the incremental learning process, which allows to consistently increase the average performances without varying the overall resource overhead.
 </p>
-
 ---
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/drive/folders/1PhFk0I-ATx7TJkocvtKq2v2WNHYrkXWM?usp=sharing)
+#### Colabs:
+
+| Model | Description    | Notebook    |
+| :---:   | :---: | :---: |
+| Finetuning and JointTraining | All cl   | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1cDOSFWes1lKWipprQMQn2ww-emaUAZ_m/view?usp=share_link)   |
+| Learning without Forgetting () | Learn  | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1wjK0EK4828dyICHwVtZ6Ob-0eML9qNa1/view?usp=share_link)   |
+| iCaRL | Learn  | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1HmShDAiKIU0wroo7NyAWfkGqK5ck36qh/view?usp=share_link)   |
+| Ablation experiments (losses) | Tried different losses  | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1Kdl6HPOZAZrBTim1ETwIHrxR3-f_VLjx/view?usp=share_link)   |
+| Our proposal | Our proposal consists in the usage of a dynamic number of k  | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1N1mO7_LSirTDdhzB3Xpme6_6MK95gO9A/view?usp=share_link)   |
+
+---
 
 #### Useful resources:
 
