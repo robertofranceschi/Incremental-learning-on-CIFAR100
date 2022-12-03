@@ -2,16 +2,18 @@
 
 ##### Roberto Franceschi, Gabriele Tiboni, Alessandro Desole
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/drive/folders/1PhFk0I-ATx7TJkocvtKq2v2WNHYrkXWM?usp=sharing)
-
-#### Abstract
+### Abstract
 
 <p align="justify">
 Recent studies in machine learning aim at developing models that are able to incrementally learn new concepts over time with minimal effort in terms of resource usage. In this work, we recall and reproduce from scratch two of the most popular approaches to this problem (”Learning without forgetting” and ”iCaRL”) and we conduct an in-depth ablation study on the previous methods. We finally propose a variation that exploits an implicit hysteresis effect of the network when storing a dynamic number of samples from old classes throughout the incremental learning process, which allows to consistently increase the average performances without varying the overall resource overhead.
 </p>
+
 ---
 
-#### Colabs:
+### Useful resources:
+
+- [Report](https://github.com/gabrieletiboni/Incremental-learning-on-CIFAR100/blob/master/Final%20Report.pdf)
+- [Results (spreadsheet)](https://docs.google.com/spreadsheets/d/1lxrz5nrHcYjzODCsvCoGal30N-beyxo3r65X9YPig6E/edit?usp=sharing)
 
 | Model | Description    | Notebook    |
 | ---  | --- | ---|
@@ -20,14 +22,6 @@ Recent studies in machine learning aim at developing models that are able to inc
 | iCaRL | add desc  | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1HmShDAiKIU0wroo7NyAWfkGqK5ck36qh/view?usp=share_link)   |
 | Ablation experiments (losses) | Tried different losses  | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1Kdl6HPOZAZrBTim1ETwIHrxR3-f_VLjx/view?usp=share_link)   |
 | Our proposal | Our proposal | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1N1mO7_LSirTDdhzB3Xpme6_6MK95gO9A/view?usp=share_link)   |
-
----
-
-#### Useful resources:
-
-- [Report](https://github.com/gabrieletiboni/Incremental-learning-on-CIFAR100/blob/master/Final%20Report.pdf)
-- [Code (colab)](https://drive.google.com/drive/folders/1PhFk0I-ATx7TJkocvtKq2v2WNHYrkXWM?usp=sharing)
-- [Results (spreadsheet)](https://docs.google.com/spreadsheets/d/1lxrz5nrHcYjzODCsvCoGal30N-beyxo3r65X9YPig6E/edit?usp=sharing)
 
 ---
 
