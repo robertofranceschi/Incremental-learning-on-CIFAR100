@@ -14,12 +14,12 @@ Recent studies in machine learning aim at developing models that are able to inc
 #### Colabs:
 
 | Model | Description    | Notebook    |
-| :---:   | :---: | :---: |
-| Finetuning and JointTraining | All cl   | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1cDOSFWes1lKWipprQMQn2ww-emaUAZ_m/view?usp=share_link)   |
-| Learning without Forgetting () | Learn  | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1wjK0EK4828dyICHwVtZ6Ob-0eML9qNa1/view?usp=share_link)   |
-| iCaRL | Learn  | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1HmShDAiKIU0wroo7NyAWfkGqK5ck36qh/view?usp=share_link)   |
+| ---  | --- | ---|
+| Finetuning and JointTraining | add desc   | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1cDOSFWes1lKWipprQMQn2ww-emaUAZ_m/view?usp=share_link)   |
+| Learning without Forgetting () | add desc  | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1wjK0EK4828dyICHwVtZ6Ob-0eML9qNa1/view?usp=share_link)   |
+| iCaRL | add desc  | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1HmShDAiKIU0wroo7NyAWfkGqK5ck36qh/view?usp=share_link)   |
 | Ablation experiments (losses) | Tried different losses  | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1Kdl6HPOZAZrBTim1ETwIHrxR3-f_VLjx/view?usp=share_link)   |
-| Our proposal | Our proposal consists in the usage of a dynamic number of k  | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1N1mO7_LSirTDdhzB3Xpme6_6MK95gO9A/view?usp=share_link)   |
+| Our proposal | Our proposal | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1N1mO7_LSirTDdhzB3Xpme6_6MK95gO9A/view?usp=share_link)   |
 
 ---
 
