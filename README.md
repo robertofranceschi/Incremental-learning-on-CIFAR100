@@ -2,6 +2,8 @@
 
 ##### Roberto Franceschi, Gabriele Tiboni, Alessandro Desole
 
+![image](https://user-images.githubusercontent.com/57017982/205986525-de2f7f40-7313-4366-b355-731970cfd23c.png)
+
 ### Abstract
 
 <p align="justify">
