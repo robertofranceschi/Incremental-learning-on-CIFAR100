@@ -12,18 +12,19 @@ Recent studies in machine learning aim at developing models that are able to inc
 
 ---
 
-### Useful resources:
+### Resources:
 
-- [Report](https://github.com/gabrieletiboni/Incremental-learning-on-CIFAR100/blob/master/Final%20Report.pdf)
-- [Results (spreadsheet)](https://docs.google.com/spreadsheets/d/1lxrz5nrHcYjzODCsvCoGal30N-beyxo3r65X9YPig6E/edit?usp=sharing)
-
-| Model | Description    | Notebook    |
-| ---  | --- | ---|
-| Finetuning and JointTraining | add desc   | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1cDOSFWes1lKWipprQMQn2ww-emaUAZ_m/view?usp=share_link)   |
-| Learning without Forgetting () | add desc  | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1wjK0EK4828dyICHwVtZ6Ob-0eML9qNa1/view?usp=share_link)   |
-| iCaRL | add desc  | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1HmShDAiKIU0wroo7NyAWfkGqK5ck36qh/view?usp=share_link)   |
-| Ablation experiments (losses) | Tried different losses  | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1Kdl6HPOZAZrBTim1ETwIHrxR3-f_VLjx/view?usp=share_link)   |
-| Our proposal | Our proposal | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1N1mO7_LSirTDdhzB3Xpme6_6MK95gO9A/view?usp=share_link)   |
+- [Report (pdf)](./Final%20Report.pdf)
+- [Experiments and Results (spreadsheet)](https://docs.google.com/spreadsheets/d/1lxrz5nrHcYjzODCsvCoGal30N-beyxo3r65X9YPig6E/edit?usp=sharing)
+- Code is made available directly in colab at the following links.
+  
+  | Model | Description | Notebook |
+  | --- | --- | --- |
+  | Finetuning and JointTraining | Baseline models illustrating traditional approaches with their inherent limitations such as catastrophic forgetting. | [Open In Colab](https://drive.google.com/file/d/1cDOSFWes1lKWipprQMQn2ww-emaUAZ_m/view?usp=share_link) |
+  | Learning without Forgetting | Utilizes knowledge distillation to preserve performance on previous tasks while learning new ones, minimizing forgetting. | [Open In Colab](https://drive.google.com/file/d/1wjK0EK4828dyICHwVtZ6Ob-0eML9qNa1/view?usp=share_link) |
+  | iCaRL | Combines representation learning with class exemplar retention to effectively manage class incremental learning. | [Open In Colab](https://drive.google.com/file/d/1HmShDAiKIU0wroo7NyAWfkGqK5ck36qh/view?usp=share_link) |
+  | Ablation Experiments (Losses) | Explores the impact of different loss functions on the balance between retaining old knowledge and acquiring new information. | [Open In Colab](https://drive.google.com/file/d/1Kdl6HPOZAZrBTim1ETwIHrxR3-f_VLjx/view?usp=share_link) |
+  | Our Proposal | Introduces a dynamic exemplar management strategy, enhancing model adaptability and performance in an incremental learning setting. | [Open In Colab](https://drive.google.com/file/d/1N1mO7_LSirTDdhzB3Xpme6_6MK95gO9A/view?usp=share_link) |
 
 ---
 
@@ -35,7 +36,7 @@ Recent studies in machine learning aim at developing models that are able to inc
 
 [3] Ross B. Girshick, Jeff Donahue, Trevor Darrell, and Jagannath Malik. Rich feature hierarchies for accurate object detection and semantic segmentation. 2014 IEEE Conference on Computer Vision and Pattern Recognition, pages 580–587, 2014.
 
-[4] Ian J. Goodfellow, Mehdi Mirza, Xia Da, Aaron C. Courville, and Yoshua Bengio. An empirical investigation of catastrophic forgeting in gradient-based neural networks. CoRR, abs/1312.6211, 2014.
+[4] Ian J. Goodfellow, Mehdi Mirza, Xia Da, Aaron C. Courville, and Yoshua Bengio. An empirical investigation of catastrophic forgetting in gradient-based neural networks. CoRR, abs/1312.6211, 2014.
 
 [5] Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun. Deep residual learning for image recognition. CoRR, abs/1512.03385, 2015.
 
@@ -54,5 +55,3 @@ Recent studies in machine learning aim at developing models that are able to inc
 [12] Michael McCloskey and Neal J. Cohen. Catastrophic interference in connectionist networks: The sequential learning problem. Psychology of Learning and Motivation, 24:109–165, 1989.
 
 [13] Sylvestre-Alvise Rebuffi, Alexander Kolesnikov, and Christoph H. Lampert. icarl: Incremental classifier and representation learning. CoRR, abs/1611.07725, 2016.
-
-[14] Tulin undefinednkaya. A density and connectivity based decision rule for pattern classification. Expert Syst. Appl., 42(2):906–912, Feb. 2015.
