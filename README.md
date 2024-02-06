@@ -20,11 +20,11 @@ Recent studies in machine learning aim at developing models that are able to inc
   
   | Model | Description | Notebook |
   | --- | --- | --- |
-  | Finetuning and JointTraining | Baseline models illustrating traditional approaches with their inherent limitations such as catastrophic forgetting. | [Open In Colab](https://drive.google.com/file/d/1cDOSFWes1lKWipprQMQn2ww-emaUAZ_m/view?usp=share_link) |
-  | Learning without Forgetting | Utilizes knowledge distillation to preserve performance on previous tasks while learning new ones, minimizing forgetting. | [Open In Colab](https://drive.google.com/file/d/1wjK0EK4828dyICHwVtZ6Ob-0eML9qNa1/view?usp=share_link) |
-  | iCaRL | Combines representation learning with class exemplar retention to effectively manage class incremental learning. | [Open In Colab](https://drive.google.com/file/d/1HmShDAiKIU0wroo7NyAWfkGqK5ck36qh/view?usp=share_link) |
-  | Ablation Experiments (Losses) | Explores the impact of different loss functions on the balance between retaining old knowledge and acquiring new information. | [Open In Colab](https://drive.google.com/file/d/1Kdl6HPOZAZrBTim1ETwIHrxR3-f_VLjx/view?usp=share_link) |
-  | Our Proposal | Introduces a dynamic exemplar management strategy, enhancing model adaptability and performance in an incremental learning setting. | [Open In Colab](https://drive.google.com/file/d/1N1mO7_LSirTDdhzB3Xpme6_6MK95gO9A/view?usp=share_link) |
+  | Finetuning and JointTraining | Baseline models illustrating traditional approaches with their inherent limitations such as catastrophic forgetting. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1cDOSFWes1lKWipprQMQn2ww-emaUAZ_m/view?usp=share_link) |
+  | Learning without Forgetting | Utilizes knowledge distillation to preserve performance on previous tasks while learning new ones, minimizing forgetting. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1wjK0EK4828dyICHwVtZ6Ob-0eML9qNa1/view?usp=share_link) |
+  | iCaRL | Combines representation learning with class exemplar retention to effectively manage class incremental learning. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1HmShDAiKIU0wroo7NyAWfkGqK5ck36qh/view?usp=share_link) |
+  | Ablation Experiments (Losses) | Explores the impact of different loss functions on the balance between retaining old knowledge and acquiring new information. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1Kdl6HPOZAZrBTim1ETwIHrxR3-f_VLjx/view?usp=share_link) |
+  | Our Proposal | Introduces a dynamic exemplar management strategy, enhancing model adaptability and performance in an incremental learning setting. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1N1mO7_LSirTDdhzB3Xpme6_6MK95gO9A/view?usp=share_link) |
 
 ---
 
